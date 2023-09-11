@@ -1,0 +1,54 @@
+/* Reset default margin and padding for body and HTML */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background image and center content */
+body {
+    background-image: url("background-for-website-task-management-system.png"); /* Replace with your image file path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensures the page takes up the full viewport height */
+}
+
+/* Center the login section */
+.login-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Adjust footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #0078d4;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .login {
+        max-width: 80%; /* Adjust the maximum width for smaller screens */
+    }
+}
+
+/* Add more responsive styles as needed */
+/* For example, you can adjust font sizes, margins, and padding for smaller screens */
